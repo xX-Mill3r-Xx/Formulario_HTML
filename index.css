@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+*{
+    padding: auto;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+
+body{
+    background-color: lightslategray;
+    text-align: center;
+    min-width: 900px;
+    min-height: 1000px;
+}
+
+form{
+    width: 533px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+fieldset.titulo{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 507px;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+fieldset.nome{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+fieldset.email{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#email{
+    width: 432px;
+}
+
+fieldset.op{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+fieldset.seni{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+fieldset.inputs{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+fieldset.textos{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+textarea#txt{
+    width: 30em;
+}
+
+fieldset.but{
+    background-color: black;
+}
+
+button:hover{
+    cursor: pointer;
+    border-color: orangered;
+    background-color: orange;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
